@@ -1,0 +1,154 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url(images/wysiwyg-uploads_1580196666465-doctor.jpg);
+    background-size: cover;
+}
+.login{
+    width: 100%;
+    max-width: 500px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+    box-shadow: inset -2px 2px 2px white;
+}
+.under{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 6px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    border-bottom: solid 1px white;
+}
+.fline{
+    display: block;
+    flex-wrap: wrap;
+    padding: 20px 0;
+
+}
+.sline:nth-child(2n){
+    justify-content: end;
+}
+
+.sline{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+    padding-left: 100px;
+}
+
+.sline label{
+    width: 95%;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+.sline input{
+    height: 40px;
+    width: 90%;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid grey;
+    padding: 0 10px;
+    padding-left: 20px;
+}
+
+.gender{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 1px solid white;
+}
+
+.genders{
+    margin: 15px 0;
+    color: white;
+}
+
+.genders label{
+    padding: 0 20px 0 50px;
+}
+
+.genders label, .genders input, .submits input{
+    cursor: pointer;
+}
+
+.submits{
+    margin-top: 40px;
+}
+.submits a{
+    text-decoration: none;
+}
+
+p{
+    font-size: 20px;
+    color: white;
+}
+
+p a{
+    text-decoration: none;
+    color: blue;
+}
+.checkbox{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    color: beige;
+}
+.checkbox a{
+    text-decoration: none;
+    color: blue;
+}
+
+span {
+display: flex;
+}
+
+.pp{
+    justify-content: center;
+}
+.pp p{
+    color: rgba(0, 0, 250, 0.4);
+}
+
+.pp p:hover{
+    color: blue;
+    font-weight:bolder;
+}
+
+.pp a{
+    text-decoration:none ;
+    color: blue;
+}
+
+.checkbox input{
+    padding-left: 100px;
+}
+
+.submits input{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    color: rgb(209, 209, 209);
+    background: rgba(63, 114, 76, 0.7);
+}
+
+.submits input:hover{
+    background: rgba(56, 204, 93, 0.7);
+    color: white;
+    border-radius: 8px;
+}
+
+.submits input:visited{
+    color: plum;
+}
